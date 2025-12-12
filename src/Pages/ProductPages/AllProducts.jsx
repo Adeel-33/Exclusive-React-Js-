@@ -65,11 +65,6 @@ const AllProducts = () => {
                 </span>
 
                 <div className="flex flex-col gap-3">
-                  <img
-                    className="w-5 h-5 p-1 rounded-full border border-gray-300 hover:bg-gray-200 hover:scale-110 cursor-pointer transition"
-                    src={heart_icon}
-                    alt="like"
-                  />
 
                   <img
                     className="w-5 h-5 p-1 rounded-full border border-gray-300 hover:bg-gray-200 hover:scale-110 cursor-pointer transition"

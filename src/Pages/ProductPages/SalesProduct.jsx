@@ -61,11 +61,7 @@ const SalesProduct = () => {
         </button>
 
         <div className="flex flex-col gap-3">
-          <img
-            className="w-5 h-5 p-1 rounded-full border border-gray-300 hover:bg-gray-100 cursor-pointer transition"
-            src={heart_icon}
-            alt="like"
-          />
+          
           
           <img
             onClick={()=>{

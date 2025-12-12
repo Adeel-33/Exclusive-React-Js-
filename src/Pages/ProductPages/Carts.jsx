@@ -88,7 +88,7 @@ const Cart = () => {
 
 
            
-           <div className="flex flex-col md:flex-row gap-5 mt-5">
+           <div className="flex flex-col md:flex-row gap-5 my-8">
              <div className="w-full md:w-[350px] bg-white rounded-xl shadow-md p-6 flex flex-col gap-4 border">
                <h2 className="text-lg font-semibold text-gray-900">Cart Total</h2>
 
@@ -107,9 +107,6 @@ const Cart = () => {
                  <span>${totalPrice}</span>
                </div>
 
-               <button className="w-full bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-medium mt-3">
-                 Proceed to checkout
-               </button>
 
             </div>
           </div>
